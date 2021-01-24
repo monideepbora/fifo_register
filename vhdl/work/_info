@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/hdl/fifo/vhdl
+Efifo
+Z1 w1611484541
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8./fifo.vhd
+Z6 F./fifo.vhd
+l0
+L5
+V<=CleiF=Lo^AMbbL3z[6V0
+!s100 CZO8;Zf6LS7AjBkDL`^HP2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1611484544
+!i10b 1
+Z9 !s108 1611484544.000000
+Z10 !s90 -reportprogress|300|-work|work|./fifo.vhd|
+Z11 !s107 ./fifo.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 4 fifo 0 22 <=CleiF=Lo^AMbbL3z[6V0
+l48
+L33
+VUW?z9??<g65lL@9o^Eh3h0
+!s100 SW?Sf6E:Q^PGkUneb2C0]3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efifo_tb
+Z14 w1611454219
+R2
+R3
+R4
+R0
+Z15 8./fifo_tb.vhd
+Z16 F./fifo_tb.vhd
+l0
+L5
+Vg=V7QQTXhQM3]BoCSh8M<3
+!s100 Sd[IE^OQbEPn@57J3=]V_1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|./fifo_tb.vhd|
+Z18 !s107 ./fifo_tb.vhd|
+!i113 1
+R12
+R13
+Aarch
+R2
+R3
+R4
+Z19 DEx4 work 7 fifo_tb 0 22 g=V7QQTXhQM3]BoCSh8M<3
+l57
+L11
+V;Io>zV2XSD7TAS^Vc>8Q]0
+!s100 95i44=MMXJ@maj1z>C;BF1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
