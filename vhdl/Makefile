@@ -5,4 +5,4 @@ all:
 	./fifo_tb
 
 clean: 
-	rm *.o *.cf
+	rm *.o *.cf fifo_tb
