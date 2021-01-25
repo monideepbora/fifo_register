@@ -1,0 +1,75 @@
+ghdl -a fifo.vhd fifo_tb.vhd
+ghdl -e fifo_tb
+./fifo_tb
+fifo_tb.vhd:100:13:@5ns:(report note): Writing begins...
+fifo_tb.vhd:106:17:@10ns:(report note): Value: 1 written at index: 0
+fifo_tb.vhd:106:17:@15ns:(report note): Value: 2 written at index: 1
+fifo_tb.vhd:106:17:@20ns:(report note): Value: 3 written at index: 2
+fifo_tb.vhd:106:17:@25ns:(report note): Value: 4 written at index: 3
+fifo_tb.vhd:106:17:@30ns:(report note): Value: 5 written at index: 4
+fifo_tb.vhd:106:17:@35ns:(report note): Value: 6 written at index: 5
+fifo_tb.vhd:106:17:@40ns:(report note): Value: 7 written at index: 6
+fifo_tb.vhd:106:17:@45ns:(report note): Value: 8 written at index: 7
+fifo_tb.vhd:106:17:@50ns:(report note): Value: 9 written at index: 8
+fifo_tb.vhd:106:17:@55ns:(report note): Value: 10 written at index: 9
+fifo_tb.vhd:106:17:@60ns:(report note): Value: 11 written at index: 10
+fifo_tb.vhd:106:17:@65ns:(report note): Value: 12 written at index: 11
+fifo_tb.vhd:106:17:@70ns:(report note): Value: 13 written at index: 12
+fifo_tb.vhd:106:17:@75ns:(report note): Value: 14 written at index: 13
+fifo_tb.vhd:106:17:@80ns:(report note): Value: 15 written at index: 14
+fifo_tb.vhd:106:17:@85ns:(report note): Value: 16 written at index: 15
+fifo_tb.vhd:106:17:@90ns:(report note): Value: 17 written at index: 16
+fifo_tb.vhd:106:17:@95ns:(report note): Value: 18 written at index: 17
+fifo_tb.vhd:106:17:@100ns:(report note): Value: 19 written at index: 18
+fifo_tb.vhd:106:17:@105ns:(report note): Value: 20 written at index: 19
+fifo_tb.vhd:106:17:@110ns:(report note): Value: 21 written at index: 20
+fifo_tb.vhd:106:17:@115ns:(report note): Value: 22 written at index: 21
+fifo_tb.vhd:106:17:@120ns:(report note): Value: 23 written at index: 22
+fifo_tb.vhd:106:17:@125ns:(report note): Value: 24 written at index: 23
+fifo_tb.vhd:106:17:@130ns:(report note): Value: 25 written at index: 24
+fifo_tb.vhd:106:17:@135ns:(report note): Value: 26 written at index: 25
+fifo_tb.vhd:106:17:@140ns:(report note): Value: 27 written at index: 26
+fifo_tb.vhd:106:17:@145ns:(report note): Value: 28 written at index: 27
+fifo_tb.vhd:106:17:@150ns:(report note): Value: 29 written at index: 28
+fifo_tb.vhd:106:17:@155ns:(report note): Value: 30 written at index: 29
+fifo_tb.vhd:106:17:@160ns:(report note): Value: 31 written at index: 30
+fifo_tb.vhd:106:17:@165ns:(report note): Value: 32 written at index: 31
+fifo_tb.vhd:113:13:@165ns:(report note):
+fifo_tb.vhd:114:13:@165ns:(report note): Writing ends, Reading begins...
+fifo_tb.vhd:115:13:@165ns:(report note):
+fifo.vhd:75:29:@165ns:(report warning): Write index full, will overflow
+fifo_tb.vhd:120:17:@170ns:(report note): Value: 1 read from index: 0
+fifo_tb.vhd:120:17:@175ns:(report note): Value: 2 read from index: 1
+fifo_tb.vhd:120:17:@180ns:(report note): Value: 3 read from index: 2
+fifo_tb.vhd:120:17:@185ns:(report note): Value: 4 read from index: 3
+fifo_tb.vhd:120:17:@190ns:(report note): Value: 5 read from index: 4
+fifo_tb.vhd:120:17:@195ns:(report note): Value: 6 read from index: 5
+fifo_tb.vhd:120:17:@200ns:(report note): Value: 7 read from index: 6
+fifo_tb.vhd:120:17:@205ns:(report note): Value: 8 read from index: 7
+fifo_tb.vhd:120:17:@210ns:(report note): Value: 9 read from index: 8
+fifo_tb.vhd:120:17:@215ns:(report note): Value: 10 read from index: 9
+fifo_tb.vhd:120:17:@220ns:(report note): Value: 11 read from index: 10
+fifo_tb.vhd:120:17:@225ns:(report note): Value: 12 read from index: 11
+fifo_tb.vhd:120:17:@230ns:(report note): Value: 13 read from index: 12
+fifo_tb.vhd:120:17:@235ns:(report note): Value: 14 read from index: 13
+fifo_tb.vhd:120:17:@240ns:(report note): Value: 15 read from index: 14
+fifo_tb.vhd:120:17:@245ns:(report note): Value: 16 read from index: 15
+fifo_tb.vhd:120:17:@250ns:(report note): Value: 17 read from index: 16
+fifo_tb.vhd:120:17:@255ns:(report note): Value: 18 read from index: 17
+fifo_tb.vhd:120:17:@260ns:(report note): Value: 19 read from index: 18
+fifo_tb.vhd:120:17:@265ns:(report note): Value: 20 read from index: 19
+fifo_tb.vhd:120:17:@270ns:(report note): Value: 21 read from index: 20
+fifo_tb.vhd:120:17:@275ns:(report note): Value: 22 read from index: 21
+fifo_tb.vhd:120:17:@280ns:(report note): Value: 23 read from index: 22
+fifo_tb.vhd:120:17:@285ns:(report note): Value: 24 read from index: 23
+fifo_tb.vhd:120:17:@290ns:(report note): Value: 25 read from index: 24
+fifo_tb.vhd:120:17:@295ns:(report note): Value: 26 read from index: 25
+fifo_tb.vhd:120:17:@300ns:(report note): Value: 27 read from index: 26
+fifo_tb.vhd:120:17:@305ns:(report note): Value: 28 read from index: 27
+fifo_tb.vhd:120:17:@310ns:(report note): Value: 29 read from index: 28
+fifo_tb.vhd:120:17:@315ns:(report note): Value: 30 read from index: 29
+fifo_tb.vhd:120:17:@320ns:(report note): Value: 31 read from index: 30
+fifo_tb.vhd:120:17:@325ns:(report note): Value: 32 read from index: 31
+fifo_tb.vhd:127:13:@325ns:(report note):
+fifo_tb.vhd:128:13:@325ns:(report note): Testbench ends.
+fifo.vhd:85:29:@325ns:(report warning): Read index full, will overflow.
