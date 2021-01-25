@@ -1,4 +1,4 @@
-/* Description : FIFO Entity 
+/* Description : FIFO module in verilog 
  Author : Monideep Bora */
 
  module fifo #(
@@ -45,7 +45,6 @@
         end
     end
 
-
      always @(posedge clk,posedge sync_reset) begin
         if(sync_reset)
             begin // sync_reset resets the indices and counter.
@@ -63,18 +62,14 @@
                 // increments the read index if within limits or wraps around
                 if(rd_en==1'b1 && flag_empty_reg==1'b0)
                     if(rd_index==depth-1)
-                        begin
-                            rd_index <= 0;
-                        end
+                        rd_index <= 0;
                     else
                         rd_index <= rd_index + 1;
 
                 // increments the write index if within limits or wraps around
                 if(wr_en==1'b1 && flag_full_reg==1'b0)
                     if(wr_index==depth-1)
-                        begin
-                            wr_index <= 0;
-                        end
+                        wr_index <= 0;
                     else
                         wr_index <= wr_index + 1;
                 // synchronous write construct, register from write bus to next fifo location
