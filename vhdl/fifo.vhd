@@ -1,4 +1,4 @@
--- Description : FIFO Entity 
+-- Description : FIFO Entity in VHDL
 -- Author : Monideep Bora
 
 
