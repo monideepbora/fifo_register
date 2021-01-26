@@ -39,7 +39,7 @@
     integer i;
     initial
     begin
-        for(i=0;i!=1024;i=i+1)
+     for(i=0;i!=depth;i=i+1)
         begin 
             fifo_mem[i] = 0;
         end
